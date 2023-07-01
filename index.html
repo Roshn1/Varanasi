@@ -1,0 +1,295 @@
+<html>
+    <head>
+        <title>card</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                background: linear-gradient(90deg,black,rgb(204,235,255),rgb(0,77,128),black);
+            }
+            img{
+                float: left;
+                height: 250px;
+                width: 300px;
+            }
+            .panel-ops p{
+              display: inline;
+              margin-left: 15px;
+            }
+            .panel-ops{
+                width: 70%;
+                font-size: 1.2rem;
+            }
+            .navbar{
+                height: 80px;
+                background-color: #0f1111;
+                color: white;
+                display: flex;
+                align-items:center;
+                justify-content: space-evenly;
+            }
+            .nav-search{
+                display: flex;
+                justify-content: space-evenly;
+                background-color: pink;
+                width: 500px;
+                height: 40px;
+                border-radius: 4px;
+            }
+            .search-select{
+                background-color: #f3f3f3;
+                width: 50px;
+                text-align: center;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                border: none;
+            }
+            .search-input{
+                width: 100%;
+                font-size: 1rem;
+                border: none;
+            }
+            .search-icon{
+                width: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.2rem;
+                background-color: red;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                color:#0f1111 ;
+            }
+            .nav-search:hover{
+                border: 2px solid red;
+            }
+            .heading2{
+                font-size: 1.5rem;
+                padding: 1rem;
+                text-align: center;
+                color: black;
+                text-shadow: 3px 3px 3px cornsilk;
+            } 
+            .heading2:hover{
+                font-size: 1.6rem;
+                transition: 1s;
+            }
+            .div01{
+                /* height:500px; */
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows:1fr 1fr;
+                 width:70vw;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5px 5px 5px;
+                /* border: 2px solid black; */
+            }
+            .div01:hover{
+                box-shadow: 5px 5px 25px white;
+            }
+            .items:hover{
+                box-shadow: 5px 5px 25px red;
+                background-color: cornsilk;
+                transition: 1s;
+                color: darkblue;
+            }
+            img:hover{
+                height: 255px;
+                width: 305px;
+                border: 2px solid transparent;
+                box-shadow: 2px 3px 20px darkblue;
+                transition: 1s;
+            }
+            .items h3:hover{
+                color: red;
+                transition: 1s;
+            }
+            .items{
+                height: 300px;
+                width: 500px;
+                border-radius: 10px 10px 10px;
+                background-color: white;
+                border: 2px solid transparent;
+                box-shadow: 3px 3px 3px white;
+                margin: 10px;
+                text-align: center;
+            }
+            .foot-panel1{
+                background-color: black;
+                color: white;
+                height: 150px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            ul p{
+                font-weight: 700;
+            }
+            ul{
+                margin-top: 20px;
+            }
+            ul a{
+                display: block;
+                font-size: 0.85rem;
+                margin-top: 10px;
+                color: #DDDDDD;
+            }
+            .social-handles{
+                font-weight: 700;
+                margin-top: 20px;
+            }
+            .logo-med{
+                margin: 20px;
+            }
+            a{
+                margin-left: 10px;
+            }
+            .social-handles a{
+                color: skyblue;
+            }
+            a:hover{
+                color: red;
+                font-size: 1.3rem;
+                transition: 1s;
+                box-shadow: 5px 5px 5px black;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="panel-ops">
+                    <i class="fa-solid fa-globe fa-xl"></i>
+                    <a>Home</a>
+                    <a>Destination</a>
+                    <a>Contact Us</a>
+                    <a>Blog</a> 
+                </div>
+                
+                <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                    </select>
+                    <input placeholder="Search Destination" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <hr>
+
+            <div class="heading2">
+                <u><h1 >Top Attractions in Varanasi</h1></u>
+            </div>
+        </header>
+        
+        <div class="div01">
+            <div class="items">
+                <img src="ASSIGHAT.jpg" >
+                <h3>Assi Ghat</h3>
+                <br>
+                <div>
+                    <p>Assi Ghat is the southernmost ghat in Varanasi. It is one of the biggest ghats of Varanasi and most popular one. To most visitors to Varanasi, it is known for being a place where long-term foreign students, researchers, and tourists live. Assi Ghat is one of the ghats often visited for recreation and during festivals.</p> 
+                </div>
+            </div>
+            <div class="items">
+                <img src="kvt.jpg">
+                <h3>Kashi Vishwanath Temple</h3>
+                <br>
+                <p>The Kashi Vishwanath Temple is a famous Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, near Varanasi, Uttar Pradesh, India. The temple is one of the most sacred pilgrimage sites for Shaivites and is among the twelve Jyotirlinga, shrines which are said to be the most sacred abodes of Shiva.</p>
+            </div>
+            <div class="items">
+                <img src="sarnath.jpg">
+                <h3>Sarnath</h3>
+                <br>
+                <div>
+                    <p>
+                        Sarnath is a place located 10 kilometres north-east of Varanasi near the confluence of the Ganges and the Varuna rivers in Uttar Pradesh, India. The deer park inSarnath is where Gautama Buddha first taught the Dhamma, and where the Buddhist Sangha came into existence through the enlightenment of Kondanna.
+                    </p>
+                </div>
+            </div> 
+            <div class="items">
+                <img src="namoghaat.jpg">
+                <h3>Namo Ghat</h3>
+                <br>
+                <div>
+                    <p>
+                        Namo Ghat is Kashi’s first Ghat to be accessible by water, land, and air. The city has what seems to be the new Kashi look, which is something that attracts many visitors. Its minimal interior design and traditional Kashi wall paintings throw off an air of both modernity and heritage.
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <img src="dasha.jpg">
+                <h3>Dashashwamedh Ghat</h3>
+                <br>
+                <div>
+                    <p>
+                        Dashashwamedh Ghat is a main ghat in Varanasi located on the Ganges River in Uttar Pradesh. It is located close to Vishwanath Temple. There are two Hindu legends associated with the ghat: according to one, Brahma created it to welcome Shiva, and in another, Brahma sacrificed ten horses during Dasa-Ashwamedha yajna.
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <img src="gangaarti.jpg">
+                <h3>Ganga Aarti</h3>
+                <br>
+                <div>
+                    <p>
+                        The Ganga Aarti (ritual of offering prayer to the Ganges river) is held daily at dusk. Several priests perform this ritual by carrying deepam and moving it up and down in a rhythmic tune of bhajans. Special aartis are held on Tuesdays and on religious festivals.The Ganga Aarti starts soon after sunset and lasts for about 45 minutes.
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <img src="samkat.jpg">
+                <h3>Sankat Mochan Temple</h3>
+                <br>
+                <div>
+                    <p>
+                        Sankat Mochan Hanuman Temple is a Hindu temple in Varanasi, Uttar Pradesh, India and is dedicated to the Hindu God Hanuman. The temple was established by famous Hindu preacher and poet saint Sri Goswami Tulsidas in the early 16th century and is situated on the banks of the Assi river.
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <img src="vt.jpg">
+                <h3>New Vishwanath Temple</h3>
+                <br>
+                <div>
+                    <p>
+                        Shri Vishwanath Mandir also known as Vishwanath Mandir, Vishwanath Temple, New Vishwanath Temple and Birla Temple is another prominent Hindu temple in the holy city of Varanasi. Hindus across India and abroad visit this particular Lord Shiva temple to offer prayer to the Lord Vishwanath for the well-being of their families, and eternal peace.
+                    </p>
+                </div>
+            </div> 
+        </div>
+        <hr>
+        <footer>
+            <div class="foot-panel1">
+                <ul>
+                    <p>Contact Info</p>
+                   <a> Company</a>
+                    <a>About</a>
+                    <a>Jobs</a>
+                    <a>For the Records</a>
+                </ul>
+                <ul>
+                    <p>For the Artist</p>
+                    <a>Developers</a>
+                    <a>Adverting</a>
+                    <a>Useful Links</a>
+                </ul>
+                <div class="social-handles">
+                    <p>Social Media Handles</p>
+                    <div class="logo-med">
+                        <a href="https://instagram.com/roshh_niiiiiiii?igshid=NGExMmI2YTkyZg==" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href=" https://wa.me/qr/PTYHE5F7YKZ4N1 "  target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                </div>
+            </div>
+        </footer> 
+    </body>
+</html>
